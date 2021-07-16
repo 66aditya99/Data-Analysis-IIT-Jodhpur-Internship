@@ -1,0 +1,32 @@
+Background: Depression and anxiety are leading causes of disability but they often remain undetected and untreated. Using smartphone and wearable devices may offer a unique source of data to detect moment by moment changes in risk factors associated with mental disorder.
+
+AIM: Study is aimed to explore the extent to which data from smartphone could predict symptoms of depression and anxiety.
+
+-> study was done of 60 adults (24-68)
+-> 30-day period
+-> location(GPS), smartphone usage(total usage time and frequency), activity(step count and metabolic equivalent), sleep, heart rate
+-> Also Participants were prompted to report their daily mood by some self-reported assesments of depression, anxiety and stress (DASS-21)
+
+Results: Multilevel models demonstrated a significant negative association between the variability of locations visited and symptoms of depression (beta = −0.21, p = 0.037) and significant positive associations between total sleep time and depression (beta = 0.24, p = 0.023), time in bed and depression (beta = 0.26, p = 0.020), wake after sleep onset and anxiety (beta = 0.23, p = 0.035) and HRV(heart rate variability) and anxiety (beta = 0.26, p = 0.035). A combined model of smartphone and wearable features and self-reported mood provided the strongest prediction of depression.
+
+About Location Data
+->One source of data that has yielded promising results in identifying those suffering from mental disorders is location data derived from smartphone global positioning systems (GPS)
+found that regularity of participants' 24-h movement patterns (Correlation_r = −0.63), the variance of locations visited (r = −0.58) and the proportion of time spent at home (r = 0.49) were related to depressive symptom severity.
+
+
+the paper initially discussed about GPS based location sensing and showed that the corellation results of mental disorder with location data were promising.
+then their was discription of most widely used sensor - the accelometer sensor and wrote how their is a strong association bw acc based acitvity and decreased rates of depression.
+After than their were para about how sleep alterations are highly prevalent in mental disorders.
+then their was discussion on Heart rate variability(HRV) and several studies have demonstrated that lower HRV is also associated with increased symptoms of depression, anxiety.
+
+Questionaries (Phsycological servey)
+Some questionaries were also used like (DASS-21 depression anxiety stress scale) and also participants were asked to report daily mood. To assess participant mood, notifications were sent by the Delphi app asking participants to report their mood 3 times per day (EMA ecological momentary assesment)
+
+
+With regards to smartphone usage features, we found no significant relationship between smartphone usage duration or smartphone usage frequency and symptoms of depression, anxiety and stress.
+
+
+As compensation for participating in the study all participants received a personalized mental health and well-being report reviewed by a clinical psychologist (L.B.S.) at the end of the study.
+
+We then applied a K-means clustering algorithm (49) to the stationary state data samples to identify the locations where participants spent the majority of their time.
+
